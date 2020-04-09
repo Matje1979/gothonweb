@@ -1,0 +1,12 @@
+$def with (room)
+$var cssfiles: static\style.css
+
+$if room.name == "The End":
+    <pre style="font-size: 14pt; text-align: center;">
+    $room.description
+    </pre>
+
+<h3 style="font-size:26pt; text-align: center;color: yellow;">GAME OVER</h3><br>
+
+<p style="font-size: 18pt; color: blue; text-align: center;"><a href="/index">Play Again?</a></p>
+

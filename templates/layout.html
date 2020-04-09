@@ -1,0 +1,19 @@
+$def with (content)
+
+<html>
+    
+<head>
+    <title>Gothons from planet Percal #25</title>
+    
+    $if content.cssfiles:
+        $for f in content.cssfiles.split():
+            <link rel="stylesheet" type="text/css" href="$f" media="screen" charset="utf-8"/>
+</head>
+    
+<body>
+    <div style="box-sizing: border-box; border: 100px solid blue; width:100%; height: 150%; background-color:green;">
+    $:content
+    </div>
+</body>
+    
+</html>

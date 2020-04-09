@@ -1,0 +1,17 @@
+h2 {
+
+  animation: fade 1s infinite;
+  
+}
+
+@keyframes fade {
+50% {
+    
+       opacity: 0.01;
+    }
+    
+}
+
+
+
+  
